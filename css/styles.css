@@ -1,0 +1,92 @@
+/* --- HEADER --- */
+#header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 65px;
+  font-size: 32px;
+  color: white;
+  background-color: #B95835;
+  vertical-align: middle;
+}
+#name {
+  display: inline-block;
+  float: left;
+  margin-left: 20%;
+  margin-top: 15px;
+}
+#github_mark {
+  filter: invert(100%);
+  height: 100%;
+  width: auto;
+}
+#github_mark:hover {
+  filter: invert(80%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.right {
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+  padding-right: 2%;
+  text-decoration: none;
+}
+.right:hover {
+  filter: invert(20%);
+}
+
+/* --- SIDEBAR --- */
+
+#sidebar_div {
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  bottom: 0px;
+  left: 0px;
+  background-color: #7A3E48;
+}
+#contact_div {
+  position: fixed;
+  text-align: center;
+  width: 15%;
+  height: 150px;
+  bottom: 0px;
+  left: 0px;
+}
+#sidebar_div > p {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* --- BODY --- */
+
+
+h1 {
+  text-align: center;
+  color: white;
+}
+body {
+  font-family: 'Bitter', serif;
+  background-color: #3D3242;
+  color: #C8C8C8
+}
+#content_div {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 65%;
+  height: 90%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+#content_div > p {
+  font-size: 1.3em;
+}
