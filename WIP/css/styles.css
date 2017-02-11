@@ -14,7 +14,7 @@
 #name {
   display: inline-block;
   float: left;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-top: 15px;
 }
 #github_mark {
@@ -68,7 +68,6 @@ a {
 }
 
 /* --- CONTENT --- */
-
 
 h1 {
   text-align: center;
