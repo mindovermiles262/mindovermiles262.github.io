@@ -28,41 +28,64 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand" href="./index.html">Andy Duss</a>
+				      <a class="navbar-brand" href="#">Andy Duss</a>
 				    </div>
 
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
+
 				        <li><a href="#about-me">About Me <span class="sr-only">(current)</span></a></li>
 
-				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-				          <ul class="dropdown-menu">
-				            <li><a href="#projects">Chess</a></li>
-				            <li><a href="#projects">Hangman</a></li>
-				          <li role="separator" class="divider"></li>
-				            <li><a href="#">Something Ruby</a></li>
-			              <li role="separator" class="divider"></li>
-				            <li><a href="#">Something Rails</a></li>
-				          <li role="separator" class="divider"></li>
-				          	<li><a href="https://github.com/mindovermiles262/song-of-the-day">Song of the Day</a></li>
-				          </ul>
-				        </li>
-				        <li><a href="#work">Work on the Web <span class="sr-only">(current)</span></a></li>
-				      </ul>
+						<li><a href="#projects" class="caret-before">Projects</a></li>
+        				<li class="dropdown">    
+            				<a class="dropdown-toggle caret-after" data-toggle="dropdown">
+                				<b class="caret"></b>
+                			</a>
+            				<ul class="dropdown-menu">
+            					<h6 class="dropdown-header">Ruby</h6>
+			                	<li><a href="#chess">Chess</a></li>
+			                    <li><a href="#hangman">Hangman</a></li>
+			                    <!-- <li><a tabindex="-1" href="#">Something Ruby</a></li> -->
+			                    <li class="divider"></li>
+			                    <li><a href="#projects">All Projects</a></li>
+                			</ul>
+                		</li>
+
+
+                		<li><a href="#work" class="caret-before">Work on the Web</a></li>
+        				<li class="dropdown">    
+            				<a class="dropdown-toggle caret-after" data-toggle="dropdown">
+                				<b class="caret"></b>
+                			</a>
+            				<ul class="dropdown-menu">
+			                	<li><a href="#jsketchr">jSketchr</a></li>
+			                    <li><a href="#songoftheday">Song of the Day</a></li>
+			                    <li><a href="#teatimer">Tea Timer</a></li>
+			                    <li class="divider"></li>
+			                    <li><a href="#work">All Work</a></li>
+                			</ul>
+                		</li>
+			      	  </ul> <!-- END OF NAVBAR LEFT -->
 
 				      <ul class="nav navbar-nav navbar-right">
-				        <li><a href="https://medium.com/@mindovermiles262">Blog</a></li>
-				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get in touch <span class="caret"></span></a>
-				          <ul class="dropdown-menu">
+				        <li>
+				        	<a href="https://medium.com/@mindovermiles262">Blog</a>
+				        </li>
+
+                		<li><a href="#contact" class="caret-before">Get in touch</a></li>
+        				<li class="dropdown">    
+            				<a class="dropdown-toggle caret-after" data-toggle="dropdown">
+                				<b class="caret"></b>
+                			</a>
+            				<ul class="dropdown-menu">
 				            <li><a href="https://github.com/mindovermiles262">GitHub</a></li>
 				            <li><a href="https://www.linkedin.com/in/andrew-duss-6a245445/">LinkedIn</a></li>
 				            <li><a href="http://www.twitter.com/mindovermiles26">Twitter</a></li>
-				          </ul>
-				        </li>
+                			</ul>
+                		</li>
 				      </ul>
+
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
 				</nav>
@@ -80,21 +103,21 @@
 	<!-- ABOUT ME -->
 			<div class="content container" id="about-me">
 				<h1># About Me</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-				</p>
+				<div class="row nav-scroll">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+				</div>
 			</div>
 
 	<!-- PROJECTS -->
 		<div class="content container" id="projects">
 			<h1># Projects</h1>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 nav-scroll" id="chess">
 				<h2>Chess</h2>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-md-6 nav-scroll" id="hangman">
 					<h2>Hangman</h2>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
 				</div>
@@ -105,12 +128,12 @@
 		<div class="content container" id="work">
 			<h1># Work on the Web</h1>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 nav-scroll" id="jsketchr">
 					<h2>jSketchr</h2>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
 				</div>
 				
-				<div class="col-md-4">
+				<div class="col-md-4 nav-scroll" id="songoftheday">
 					<h2>Song of the Day</h2>
 					<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aandyduss%3Aplaylist%3A1VJVFypnr5RFbUvRIEF6Pu&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 					<p>
@@ -121,7 +144,7 @@
 					</p>
 				</div>
 				
-				<div class="col-md-4">
+				<div class="col-md-4 nav-scroll" id="teatimer">
 					<h2>Tea Timer</h2>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
 				</div>
@@ -137,7 +160,7 @@
 		</div>
 
 	<!-- More Content -->
-		<div class="content container" id="">
+		<div class="content container" id="contact">
 			<h1># Contact</h1>
 			<p>
 				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
