@@ -5,6 +5,9 @@ body {
 	/* Bootstrap Navbar Padding */
 	padding-top: 70px;
 }
+.content {
+	padding-top: 50px;
+}
 
 .jumbotron h1 {
 	text-align: center;
