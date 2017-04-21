@@ -17,16 +17,25 @@ body {
 
  /* --- JUMBOTRON --- */
 
-.jumbotron h1 {
+.jumbotron h1,h2 {
 	text-align: center;
+	word-wrap: break-word;
 }
 
-h1 span {
+h1 span, h2 span {
    color: white;
    letter-spacing: -1px;  
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
+   background: rgba(28, 48, 67, 0.7);
+   /*background: #1c3043;*/
+   /*opacity: 0.7;*/
+   padding: 10px;
 }
+
+h2 {
+	padding-top: 05px;
+}
+
+
 
  /* --- BODY --- */
  
