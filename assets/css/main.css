@@ -1,6 +1,6 @@
- /* --- main.css --- */
+/* --- main.css --- */
 
- /* --- NAVBAR PADDING -- */
+/* --- NAVBAR PADDING -- */
 
 body {
 	padding-top: 70px;
@@ -12,10 +12,25 @@ body {
 	padding-top: 50px;
 }
 
-/* --- NAVBAR --- */
+/* --- NAVBAR BUTTONS --- */
 
+/*.btn a:focus, .btn a:active, .btn a:hover, btn  {*/
+.btn a:hover, .btn a:active, .btn a:focus, .caret:hover, .caret:active, .caret:focus {
+	outline: none !important;
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+}
 
- /* --- JUMBOTRON --- */
+.btn {
+	height: 52px;
+	background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+}
+.btn a, .caret {
+	color: #9d9d9d;
+}
+
+/* --- JUMBOTRON --- */
 
 .jumbotron h1,h2 {
 	text-align: center;
@@ -23,12 +38,12 @@ body {
 }
 
 h1 span, h2 span {
-   color: white;
-   letter-spacing: -1px;  
-   background: rgba(28, 48, 67, 0.7);
-   /*background: #1c3043;*/
-   /*opacity: 0.7;*/
-   padding: 10px;
+color: white;
+letter-spacing: -1px;  
+background: rgba(28, 48, 67, 0.7);
+/*background: #1c3043;*/
+/*opacity: 0.7;*/
+padding: 10px;
 }
 
 h2 {
@@ -37,8 +52,8 @@ h2 {
 
 
 
- /* --- BODY --- */
- 
+/* --- BODY --- */
+
 body {
 	/* Background SVG */
 	background-color: #315374;
