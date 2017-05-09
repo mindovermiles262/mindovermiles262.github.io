@@ -14,7 +14,11 @@ body {
 
 /* --- NAVBAR BUTTONS --- */
 
-/*.btn a:focus, .btn a:active, .btn a:hover, btn  {*/
+.btn:active, .btn:focus {
+	/* clears color flicker and outline border on navbar button click */
+	opacity: 0;
+}
+
 .btn a:hover, .btn a:active, .btn a:focus, .caret:hover, .caret:active, .caret:focus {
 	outline: none !important;
 	color: #fff;
