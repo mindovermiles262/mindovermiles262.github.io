@@ -23,6 +23,9 @@ h1, h2, h3, h4, .jumbotron > h1  {
 p, .navbar-nav > li > a {
   color: var(--text-color);
 }
+h3 {
+  text-decoration: underline;
+}
 h4 {
   text-align: center;
 }
@@ -123,11 +126,20 @@ border-radius: 4px;
 }
 
 
+/*--- GITHUB WIDGET ---*/
+.widget {
+  background-color: white;
+  display: block;
+  margin: auto;
+}
+
+
 /*--- EMAIL FORM ---*/
 .email-form {
   display: block;
   width: 100%;
-  margin: auto;
+  margin: 15px;
+  padding: 5px;
 }
 .email-btn {
   display: inline-block;
