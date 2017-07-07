@@ -1,8 +1,8 @@
-Contact
-  Form
-  Strava
-  Email
-  Github
+* ~~Contact~~
+  * Form
+  * Strava
+  * Email
+  * Github
 
 Tags
 
@@ -15,3 +15,4 @@ Skills
   Javascript
     jQuery
     
+Navbar Dropdown

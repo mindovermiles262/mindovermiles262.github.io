@@ -34,7 +34,6 @@
             </button>
             <a class="navbar-brand" href="#about-me">Andy Duss</a>
           </div>
-
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
@@ -47,11 +46,9 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#contact-github">Github</a></li>
+                  <li><a href="#contact-email">Email</a></li>
+                  <li><a href="#contact-strava">Strava</a></li>
                 </ul>
               </li>
             </ul>
@@ -137,12 +134,12 @@
   <!-- More Content -->
     <div class="content container" id="contact">
       <h1># Contact</h1>
-      <div class="col col-md-4 text-center">
+      <div class="col col-md-4 text-center" id="contact-github">
         <h3>Github</h3>
         <h4><i class="fa fa-github" aria-hidden="true"></i> mindovermiles262</h4>
         <div class="github-widget widget" data-username="mindovermiles262"></div>
       </div>
-      <div class="col col-md-4 text-center">
+      <div class="col col-md-4 text-center" id="contact-email">
         <h3>Email</h3>
         <h4><i class="fa fa-envelope" aria-hidden="true"></i> mindovermiles262@gmail.com</h4>
         <form action="https://formspree.io/mindovermiles262@gmail.com" method="POST">
@@ -153,7 +150,7 @@
           <input type="reset" class="email-btn" value="Reset">
         </form>
       </div>
-      <div class="col col-md-4 text-center">
+      <div class="col col-md-4 text-center" id="contact-strava">
         <h3>Strava</h3>
         <h4><i class="fa fa-user" aria-hidden="true"></i> andyduss</h4>
         <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/11664617/latest-rides/b1148abb0d564c822156162b43c6f8253e3599c1'></iframe>
@@ -171,6 +168,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Github Widget JS -->
-    <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+    <script src="./assets/js/ghwidget.js"></script>
 
 </html>
