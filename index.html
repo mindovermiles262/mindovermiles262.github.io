@@ -1,18 +1,173 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>AD Coming Soon</title>
-		<link href="style.css" rel="stylesheet" />
-	</head>
-	<body>
-	<div id="wrapper">
-			<div id="content">
-				<h1><span class="hash">{</span>Andy : Duss<span class="hash">}</span></h1>
-			</div>
-				<div id="wait"><p>do = ["while", "you", "are", "waiting"]</p></div>
-				<div class="left"><a id="js" href="http://www.andyduss.com/jsketchr">jSketchr</a></div>
-				<div class="right"><a id="tt" href="http://www.andyduss.com/teatimer">Tea Timer</a></div>
-			</div>
-		</div>
-	</body>
+  <head>
+  <title>Andy Duss</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/images/saturn-icon-144-213253.png"/>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Local CSS Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/stylesheet.css" type="text/css">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/00100b6ba7.js"></script>
+
+  </head>
+
+  <body>s
+
+<!-- NAVBAR -->
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#about-me">Andy Duss</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#work">Work on the Web <span class="sr-only">(current)</span></a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#skills">Skillset</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#contact-github">Github</a></li>
+                  <li><a href="#contact-email">Email</a></li>
+                  <li><a href="#contact-strava">Strava</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+
+<!-- JUMBOTRON -->
+    <div class="container">
+      <div class="jumbotron" style="background-image: url('assets/images/coffee-beans.jpg'); background-size: 100%">
+        <h1><span>Andy Duss</span></h1>
+        <h2><span>Web Developer</span></h2>
+      </div>
+    </div>
+
+  <!-- ABOUT ME -->
+      <div class="content container" id="about-me">
+        <h1># About Me</h1>
+        <div class="row nav-scroll">
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+            </p>
+        </div>
+      </div>
+
+  <!-- WORK -->
+    <div class="content container" id="work">
+      <h1># Work on the Web</h1>
+      <div class="row">
+        <div class="col-md-6 nav-scroll" id="chess">
+        <h2>Exercise Tracker</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+        </div>
+
+        <div class="col-md-6 nav-scroll" id="hangman">
+          <h2>The Odin Project</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+        </div>
+      </div>
+    </div>
+
+  <!-- PROJECTS -->
+
+    <div class="content container" id="projects">
+      <h1># Projects</h1>
+      <div class="row text-center">
+        <div class="col-md-4 nav-scroll" id="jsketchr">
+          <h2>Codebreaker</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+        </div>
+        
+        <div class="col-md-4 nav-scroll" id="songoftheday">
+          <h2>Song of the Day</h2>
+          <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aandyduss%3Aplaylist%3A1VJVFypnr5RFbUvRIEF6Pu&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          <p>
+            Scrapes the web daily and automatically adds songs to a Spotify Playlist.
+          </p>
+          <p>
+            <a href="https://github.com/mindovermiles262/song-of-the-day" class="link">View on Github</a>
+          </p>
+        </div>
+        
+        <div class="col-md-4 nav-scroll" id="teatimer">
+          <h2>Tea Timer</h2>
+          <a href="http://www.andyduss.com/teatimer"><img src="assets/images/teatimer.jpg" width="300" height="380" /></a>
+          <p>Choose your tea then press start. Countdown timer alerts you when your tea is done steeping. Optionally adjust time for the prefect brew.</p>
+          <p>
+            <a href="https://github.com/mindovermiles262/teatimer" class="link">View on Github</a>
+          </p>
+        </div>
+      </div>    
+    </div>
+
+  <!-- More Content -->
+    <div class="content container" id="skills">
+      <h1># Skillset</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+      </p>
+    </div>
+
+  <!-- More Content -->
+    <div class="content container" id="contact">
+      <h1># Contact</h1>
+      <div class="col col-md-4 text-center" id="contact-github">
+        <h3>Github</h3>
+        <h4><i class="fa fa-github" aria-hidden="true"></i> mindovermiles262</h4>
+        <div class="github-widget widget" data-username="mindovermiles262"></div>
+      </div>
+      <div class="col col-md-4 text-center" id="contact-email">
+        <h3>Email</h3>
+        <h4><i class="fa fa-envelope" aria-hidden="true"></i> mindovermiles262@gmail.com</h4>
+        <form action="https://formspree.io/mindovermiles262@gmail.com" method="POST">
+          <input type="text" name="name" class="email-form" placeholder="Your Name">
+          <input type="email" name="_replyto" class="email-form" placeholder="Your Email">
+          <textarea name="message" class="email-form email-message" placeholder="Enter a message"></textarea>
+          <input type="submit" class="email-btn" value="Send">
+          <input type="reset" class="email-btn" value="Reset">
+        </form>
+      </div>
+      <div class="col col-md-4 text-center" id="contact-strava">
+        <h3>Strava</h3>
+        <h4><i class="fa fa-user" aria-hidden="true"></i> andyduss</h4>
+        <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/11664617/latest-rides/b1148abb0d564c822156162b43c6f8253e3599c1'></iframe>
+      </div>
+    </div>  
+  </body>
+
+    <!-- jQuery  -->
+    <script 
+      src="https://code.jquery.com/jquery-3.2.1.min.js" 
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+      crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Github Widget JS -->
+    <script src="./assets/js/ghwidget.js"></script>
+
 </html>
