@@ -1,13 +1,15 @@
 :root {
-  --bg-main-color: #4B4237; /* brown */
+  --bg-main-color: #4B4237;
   
   /* --bg-main-color converted to RGB and add alpha value */
   --bg-content-transparent: rgb(164,150,148, 0.6); 
-  --primary-color: #D5A021; /* yellow */
-  --navbar-color: #A49694; /* mauve */
-  --text-color: #EDE7D9; /* cream */
-  --grey: #736B60; /* Grey */
+
+  --primary-color: #D5A021;
+  /* rgb (--primary-color), rgb(--primary-color + 5 for each) */
   --hover-gradient: linear-gradient(to bottom, rgb(213,160,33) 0px, rgb(218,165,38) 100%);
+  
+  --secondary-color: #A49694; /* mauve */
+  --text-color: #EDE7D9; /* cream */
 }
 
 
@@ -40,10 +42,10 @@ p {
 /*--- NAVBAR ---*/
 
 .container-fluid {
-    background-color: var(--navbar-color);
+    background-color: var(--secondary-color);
 }
 .navbar-default {
-  background-color: var(--navbar-color);
+  background-color: var(--secondary-color);
   border-color: var(--primary-color);
 }
 .navbar-default .navbar-brand {
@@ -127,7 +129,7 @@ p {
 h1 span, h2 span {
 color: var(--text-color);
 letter-spacing: -1px;  
-background: var(--grey);
+background: var(--secondary-color);
 padding: 4px;
 border-radius: 4px;
 }
