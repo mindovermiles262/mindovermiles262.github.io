@@ -214,7 +214,8 @@ border-radius: 4px;
 /*--- EMAIL FORM ---*/
 .email-form {
   display: block;
-  width: 300px;
+  width: 100%;
+  max-width: 330px;
   margin: 15px auto 15px auto;
   padding: 5px;
 }
@@ -223,6 +224,11 @@ border-radius: 4px;
 }
 .email-message {
   height: 300px;
+}
+
+/*--- STRAVA WIDGET ---*/
+.contact-strava {
+  max-width: 300px;
 }
 
 /*--- FOOTER ---*/
