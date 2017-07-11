@@ -191,13 +191,13 @@ border-radius: 4px;
 
 
 /*--- Content ---*/
-.content {
+.opaque {
   background: var(--bg-content-transparent);
   padding: 10px;
   border-radius: 4px;
 }
 .spacer {
-  height: 100px;
+  height: 50px;
 }
 .tags {
   border: 1px solid black;
@@ -205,6 +205,15 @@ border-radius: 4px;
 img {
   width: 280px;
   height: auto;
+}
+.image-odin, .image-exercise {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 130px;
+}
+.image-exercise {
+  filter: invert(100%);
 }
 
 /*--- GITHUB WIDGET ---*/

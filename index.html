@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <div class="bg-img">
+  <div class="bg-img" id="home">
     <!-- NAVBAR -->
     <div class="container">
       <nav class="navbar navbar-fixed-top navbar-default">
@@ -34,7 +34,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#about-me">Andy Duss</a>
+            <a class="navbar-brand" href="#home">Andy Duss</a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -68,48 +68,60 @@
     </div>
 
 <!-- ABOUT ME -->
-    <div class="content container" id="about-me">
+    <div class="opaque container" id="about-me">
       <h1>About Me</h1>
       <div class="row">
         <div class="col-md-12">
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+            My interest in programming began during my freshman year of high school when I taught myself how to program a TI-83 calculator for my math class. Since that day many things have changed, but my love of programming has not.
+          </p>
+          <p>
+            When I'm not programming you can find me outside training for my next ultramarathon, or in the kitchen making the latest loaf of homemade sourdough bread.
+          </p>
+          <p>
+            Based in the San Francisco Bay Area, I look forward to working with you to create an amazing customer experience for your business.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="spacer"></div>
+    <div class="spacer" id="work"></div>
   </div> <!-- bg-img -->
 
 <!-- WORK -->
   <div class="gradient-blue">
-    <div class="container" id="work">
+    <div class="container"> <!-- Work On The Web Container -->
       <h1>Work on the Web</h1>
       <div class="row">
-        <div class="col-md-6" id="chess">
+        <div class="col-md-6">
           <h2>Exercise Tracker</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+          <img src="./assets/images/exercise-tracker.png" alt="Exercise Tracker Logo" class="image-exercise">
+          <p>
+            Form follows function. Built to replace a physical calendar, Exercise Tracker was designed to gamify office ergonomic stretches. The leaderboard provides an up-to-date count while the message board provides the perfect place to trash talk your coworkers.
+          </p>
         </div>
 
-        <div class="col-md-6" id="hangman">
+        <div class="col-md-6">
           <h2>The Odin Project</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+          <img src="./assets/images/odin.svg" alt="The Odin Project Logo" class="image-odin">
+          <p>
+            Contributing to open source projects is my way of saying &#34;Thank You&#34; to the development community. Since I started with The Odin Project in early 2017 I have assisted in their website redesign, updating content, and answering questions in their chat room. In July of 2017 I became an official member of The Odin Project core team.
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="spacer"></div>
+    <div class="spacer" id="projects"></div>
   </div> <!-- gradient-blue -->
 
 <!-- PROJECTS -->
   <div class="gradient-yellow">
-    <div class="container" id="projects">
+    <div class="container"> <!-- Projects Container -->
       <h1>Projects</h1>
       <div class="row align-items-start text-center">
         <div class="col-md-4" id="jsketchr">
           <h2>Codebreaker</h2>
-          <a href="https://mastermind-ad.herokuapp.com/"><img src="./assets/images/codebreaker300x380.jpg" alt="Codebreaker Game" /></a>
+          <a href="https://mastermind-ad.herokuapp.com/"><img src="./assets/images/codebreaker.jpg" alt="Codebreaker Game" /></a>
           <p class="context-center">
             Can you crack the code in time? Follow the clues in this classic cryptanalysis game!
           </p>
@@ -144,12 +156,12 @@
       </div>
     </div>
 
-    <div class="spacer"></div>
+    <div class="spacer" id="skills"></div>
   </div> <!-- gradient-yellow -->
 
   <!-- SKILL SET -->
   <div class="gradient-blue">
-    <div class="container" id="skills">
+    <div class="container"> <!-- Skills Container -->
       <h1>Skill Set</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
