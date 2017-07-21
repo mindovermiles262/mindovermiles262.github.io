@@ -5,18 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="./assets/images/mountain-favicon-alt.png"/>
 
-  <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- Optional theme -->
+  <!-- Optional Bootstrap theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
   <!-- Local CSS Stylesheet -->
   <link rel="stylesheet" href="./assets/css/stylesheet.css" type="text/css">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Passion+One" rel="stylesheet"> 
-  <script src="https://use.fontawesome.com/00100b6ba7.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Passion+One" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css " rel="stylesheet">
+  
 
 </head>
 
@@ -40,17 +41,16 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
             </ul>
-
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#work">Work on the Web <span class="sr-only">(current)</span></a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#skills">Skill Set</a></li>
+              <li><a class="visible-xs nav-heading" data-toggle="collapse" data-target=".navbar-collapse" href="#work">Work on the Web</a></li>
+              <li><a class="visible-xs nav-heading" data-toggle="collapse" data-target=".navbar-collapse" href="#projects">Projects</a></li>
+              <li><a class="visible-xs nav-heading" data-toggle="collapse" data-target=".navbar-collapse" href="#skills">Skill Set</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#contact-github">Github</a></li>
-                  <li><a href="#contact-email">Email</a></li>
-                  <li><a href="#contact-strava">Strava</a></li>
+                  <li><a class="visible-xs nav-heading" data-toggle="collapse" data-target=".navbar-collapse" href="#contact-github">Github</a></li>
+                  <li><a class="visible-xs nav-heading" data-toggle="collapse" data-target=".navbar-collapse" href="#contact-email">Email</a></li>
+                  <li><a class="visible-xs nav-heading" data-toggle="collapse" data-target=".navbar-collapse" href="#contact-strava">Strava</a></li>
                 </ul>
               </li>
             </ul>
@@ -73,10 +73,10 @@
       <div class="row">
         <div class="col-md-12">
           <p>
-            My interest in programming began during my freshman year of high school when I taught myself how to program a TI-83 calculator for my math class. Since that day many things have changed, but my love of programming has not.
+            My interest in programming began during my high school freshman math class when I taught myself how to program a TI-83 calculator. Since that day many things have changed, but my love of programming has not.
           </p>
           <p>
-            When I'm not programming you can find me outside training for my next ultramarathon, or in the kitchen making the latest loaf of homemade sourdough bread.
+            When I'm not programming you can find me outside training for my next ultramarathon or in the kitchen making the latest loaf of homemade sourdough bread.
           </p>
           <p>
             Based in the San Francisco Bay Area, I look forward to working with you to create an amazing customer experience for your business.
@@ -97,15 +97,16 @@
           <h2>Exercise Tracker</h2>
           <img src="./assets/images/exercise-tracker.png" alt="Exercise Tracker Logo" class="image-exercise">
           <p>
-            Form follows function. Built to replace a physical calendar, Exercise Tracker was designed to gamify office ergonomic stretches. The leaderboard provides an up-to-date count while the message board provides the perfect place to trash talk your coworkers.
+            Form follows function. Built to replace a wall calendar, Exercise Tracker was designed to gamify office ergonomic stretches. The leaderboard is always up to date an the message board provides the perfect place to trash talk your competitors.
           </p>
+          <p><a class="link link-alt text-center" href="https://exercise-tracker-ad.herokuapp.com">View on the Web</a></p>
         </div>
 
         <div class="col-md-6">
           <h2>The Odin Project</h2>
           <img src="./assets/images/odin.svg" alt="The Odin Project Logo" class="image-odin">
           <p>
-            Contributing to open source projects is my way of saying &#34;Thank You&#34; to the development community. Since I started with The Odin Project in early 2017 I have assisted in their website redesign, updating content, and answering questions in their chat room. In July of 2017 I became an official member of The Odin Project core team.
+            Contributing to open source projects is my way of saying &#34;Thank You&#34; to the development community. Since I started with The Odin Project in early 2017, I have helped redesign their website, update content, and answer peoples questions. In July of 2017 I became an official member of the core maintainer team futhering my involvement with the project.  You can find me most days answering questions in their Gitter chatroom.
           </p>
         </div>
       </div>
@@ -162,10 +163,23 @@
   <!-- SKILL SET -->
   <div class="gradient-blue">
     <div class="container"> <!-- Skills Container -->
-      <h1>Skill Set</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-      </p>
+      <h1>Core Skill Set</h1>
+      <div class="col col-md-3 icon">
+        <i class="icon-ruby-on-rails fa-5x"></i>
+        <p>Ruby on Rails</p>
+      </div>
+      <div class="col col-md-3 icon">
+        <i class="icon-git fa-5x"></i>
+        <p>Git Version Control</p>
+      </div>
+      <div class="col col-md-3 icon">
+        <i class="icon-css3 fa-5x"></i>
+        <p>CSS</p>
+      </div>
+      <div class="col col-md-3 icon">
+        <i class="icon-bootstrap fa-5x"></i>
+        <p>Bootstrap</p>
+      </div>
     </div>
 
   <div class="spacer"></div>
@@ -203,15 +217,13 @@
 </body>
 
 <!-- jQuery  -->
-<script 
-src="https://code.jquery.com/jquery-3.2.1.min.js" 
-integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
-crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <!-- Github Widget JS -->
 <script src="./assets/js/ghwidget.js"></script>
-
+<script src="https://use.fontawesome.com/00100b6ba7.js"></script>
+<script src="./assets/js/script.js" type="text/javascript"></script>
 </html>

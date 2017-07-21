@@ -9,6 +9,7 @@
   --gradient-blue: linear-gradient(to bottom, rgb(10, 66, 87) 0px, rgb(125, 134, 151) 100%);
   --gradient-yellow: linear-gradient(to bottom, rgb(208, 168, 160) 0px, rgb(253, 172, 135) 100%);
   --link-color: #0a4257; /* Includes visited */
+  --link-color-alt: #fdac87;
   --link-hover-color: white;
   
   --font-headings: 'Passion One', cursive;
@@ -182,6 +183,10 @@ border-radius: 4px;
   font-size: 26px;
   font-weight: bold;
 }
+.link-alt {
+  color: var(--link-color-alt) !important;
+
+}
 .link:visited {
   color: var(--link-color);
 }
@@ -215,6 +220,14 @@ img {
 .image-exercise {
   filter: invert(100%);
 }
+.icon {
+  color: var(--headings-color);
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+
 
 /*--- GITHUB WIDGET ---*/
 .widget {
