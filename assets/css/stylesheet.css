@@ -164,11 +164,13 @@ body {
   background: transparent;
 }
 #heading, #subheading {
-color: var(--text-color);
-/*letter-spacing: 1px;  */
-background: var(--navbar-color);
-padding: 4px 15px 4px 15px;
-border-radius: 4px;
+  color: var(--text-color);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--navbar-color);
+  padding: 4px 15px 4px 15px;
+  border-radius: 4px;
 }
 .jumbotron > h1, h2 {
   text-align: center;
