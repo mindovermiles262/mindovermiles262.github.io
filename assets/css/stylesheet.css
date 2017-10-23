@@ -163,7 +163,7 @@ body {
   margin-top: 80px;
   background: transparent;
 }
-h1 span, h2 {
+#heading, #subheading {
 color: var(--text-color);
 /*letter-spacing: 1px;  */
 background: var(--navbar-color);
