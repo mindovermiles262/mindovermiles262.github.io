@@ -17,6 +17,9 @@
 
 }
 
+body {
+  background-color: var(--navbar-color);
+}
 
 /*--- Main Background Images and Gradients ---*/
 
@@ -73,7 +76,7 @@ body {
 /*--- NAVBAR ---*/
 
 .container-fluid {
-    background-color: var(--navbar-color);
+  background-color: var(--navbar-color);
 }
 .navbar-default {
   background-color: var(--navbar-color);
@@ -87,7 +90,6 @@ body {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  /*background-image: var(--hover-gradient);*/
   color: var(--text-color);
 }
 .navbar-default .navbar-text {
@@ -187,7 +189,6 @@ body {
 }
 .link-alt {
   color: var(--link-color-alt) !important;
-
 }
 .link:visited {
   color: var(--link-color);
@@ -225,6 +226,16 @@ img {
 .icon {
   color: var(--headings-color);
   text-align: center;
+}
+.icon-bump-right-20::before {
+  margin-left: 20px;
+}
+.icon-bump-right-5::before {
+  margin-left: 5px;
+}
+#icon-dna {
+  height: 85px;
+  width: auto;
 }
 .text-center {
   text-align: center;
@@ -265,5 +276,16 @@ img {
 
 /*--- FOOTER ---*/
 .footer {
-  height: 100px;
+  background-color: var(--navbar-color);
+  height: 50px;
+}
+.footer > .container {
+  position: relative;
+  height: 100%;
+  color: var(--text-color);
+}
+.footer > .container > .content {
+  position: absolute;
+  bottom: 0px;
+  right: 3rem;
 }
