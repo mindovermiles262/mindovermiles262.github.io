@@ -233,6 +233,20 @@ img {
 .icon-bump-right-5::before {
   margin-left: 5px;
 }
+.padding-top-5 {
+  padding-top: 5px;
+}
+.padding-10 {
+  padding: 10px;
+}
+.padding-top-10 {
+  padding-top: 10px;
+}
+.my-custom-icon {
+  padding: 5px;
+  width: auto;
+  height: 96px;
+}
 #fa-cogs {
   padding: 15px;
 }
