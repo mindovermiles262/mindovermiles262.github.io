@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  andyduss:
+    build: .
+    ports:
+      - "4500:80"
+    restart: unless-stopped
