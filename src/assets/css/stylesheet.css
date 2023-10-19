@@ -219,6 +219,7 @@ img {
   margin: auto;
   width: auto;
   height: 130px;
+  filter: invert(100%);
 }
 .image-exercise {
   filter: invert(100%);
