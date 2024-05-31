@@ -283,6 +283,12 @@ img {
   height: 300px;
 }
 
+/*--- SOLAR CONDITIONS ---*/
+.solar-disclaimer {
+  font-size: 16px;
+  margin: 0 35px
+}
+
 /*--- STRAVA WIDGET ---*/
 .contact-strava {
   max-width: 300px;
